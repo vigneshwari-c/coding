@@ -1,0 +1,25 @@
+
+import java.util.*;
+public class Range {
+ Range(int m,int n){
+    int c;
+    for(int i=m;i<=n;i++){
+        c=0;
+        for(int j=1;j<=i;j++){
+            if(i%j==0)
+                c++;
+        }
+        if(c==2)
+            System.out.println(i);
+    }
+}
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("Enter the starting range");
+        int m=sc.nextInt();
+        System.out.println("Enter the ending range");
+        int n=sc.nextInt();
+        Range o=new Range(m,n);
+    }
+    
+}
