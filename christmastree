@@ -1,0 +1,161 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+		int n,i,s,j,k,m,l,x;
+		double y;
+	printf("\nEnter the n value:");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++){
+		printf("\t");
+			printf("  ");
+		for(j=i;j<n;j++){
+			printf(" ");
+		}
+		for(k=1;k<=i;k++){
+			printf("* ");
+			if(i==3 && k==5 || i==2 && k==1){
+				printf("o");
+			}
+		}
+		printf("\n");
+	}
+	for(i=1;i<=n;i++){
+		printf("\t");
+		printf(" ");
+		for(j=i;j<n;j++){
+			printf(" ");
+		}
+		for(k=1;k<=i+1;k++){
+			printf("* ");
+				if(i==5 && k==1){
+				printf("o");
+			}
+				if(i==3 && k==4){
+				printf("o");
+			}
+			
+		}
+		printf("\n");
+	}
+	for(i=1;i<=n;i++){
+		printf("\t");
+		for(j=i;j<n;j++){
+			printf(" ");
+		}
+		for(k=1;k<=i+2;k++){
+			printf("* ");
+				if(i==5 && k==1){
+				printf("o");
+			}
+				if(i==3 && k==4){
+				printf("o");
+			}
+		}
+		printf("\n");
+	}
+	for(i=1;i<=n;i++){
+		printf("\t    ");
+		
+		for(j=1;j<n;j++){
+			printf("#");
+		}
+		printf("\n");
+	}
+	char t1[]="\t M";
+	char t2[]=" E";
+	char t3[]=" R";
+	char t4[]=" R";
+	char t5[]=" Y";
+	char t6[]="\t C";
+	char t7[]=" H";
+	char t8[]=" R";
+	char t9[]=" I";
+	char t10[]=" T";
+	char t11[]=" M";
+	char t12[]=" A";
+	char t13[]=" S";
+	printf("\n");
+	for(x=0;t1[x]!=NULL;x++){
+		printf("%c",t1[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t2[x]!=NULL;x++){
+		printf("%c",t2[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t3[x]!=NULL;x++){
+		printf("%c",t3[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t4[x]!=NULL;x++){
+		printf("%c",t4[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}for(x=0;t5[x]!=NULL;x++){
+		printf("%c",t5[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t6[x]!=NULL;x++){
+		printf("%c",t6[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t7[x]!=NULL;x++){
+		printf("%c",t7[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t8[x]!=NULL;x++){
+		printf("%c",t8[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t9[x]!=NULL;x++){
+		printf("%c",t9[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+		for(x=0;t13[x]!=NULL;x++){
+		printf("%c",t13[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t10[x]!=NULL;x++){
+		printf("%c",t10[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t11[x]!=NULL;x++){
+		printf("%c",t11[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t12[x]!=NULL;x++){
+		printf("%c",t12[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+	for(x=0;t13[x]!=NULL;x++){
+		printf("%c",t13[x]);
+		for(y=0;y<=8888888;y++){
+			
+		}
+	}
+}
